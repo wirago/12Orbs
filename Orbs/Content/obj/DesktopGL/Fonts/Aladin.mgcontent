@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/Fonts/Aladin.spritefont</SourceFile>
+  <SourceTime>2019-01-26T11:02:18.2367006+01:00</SourceTime>
+  <DestFile>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/bin/DesktopGL/Fonts/Aladin.xnb</DestFile>
+  <DestTime>2019-01-26T11:04:54.3770787+01:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

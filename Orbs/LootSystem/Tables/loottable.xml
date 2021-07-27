@@ -1,0 +1,56 @@
+<Loot>
+	<Items type="consumable">
+		<Item id="c01" name="Apple" rarity="50" value="2" icon="Consumables\apple" useEffect="health5"/>
+		<Item id="c02" name="Fish" rarity="20" value="5" icon="Consumables\fish" useEffect="health5"/>
+		<Item id="c04" name="Waterbottle" rarity="20" value="10" icon="Consumables\bottle" useEffect="health10"/>
+		<Item id="c05" name="Mana Potion" rarity="20" value="30" icon="Consumables\pot_mana" useEffect="mana10"/>
+		<Item id="c06" name="Health Potion" rarity="20" value="30" icon="Consumables\pot_healing" useEffect="health50"/>
+	</Items>
+	
+	<Items type="material">
+		<Item id="m01" name="Screw" rarity="10" value="10" icon="Misc\no" useEffect=""/>
+	  <Item id="m02" name="Gear-Wheel" rarity="10" value="15" icon="Misc\no" useEffect=""/>
+    <Item id="m03" name="Stick" rarity="20" value="0" icon="Material\stick" useEffect=""/>
+	</Items>
+
+  <Items type="misc">
+    <Item id="misc01" name="Coins" rarity="10" value="100" icon="Misc\coins" useType="none" useEffect=""/>
+  </Items>
+  
+  <Items type="questItems">
+    <Item id="corruptionGift" name="Corruption Gift" rarity="100" value="0" icon="Misc\coins" useType="none" useEffect=""/>
+    <Item id="lvl1_waterfall" name="Stone Tablet" rarity="100" value="0" icon="Questitems\lvl1_waterfall" useType="textbox" useEffect="level01_StoneTablet"/>
+    <Item id="lvl1_note1" name="Note" rarity="100" value="0" icon="Questitems\lvl1_note1" useType="textbox" useEffect="level01_Note_01"/>
+    <Item id="lvl1_bushNote" name="Bush Note" rarity="100" value="0" icon="Questitems\lvl1_bushNote" useType="textbox" useEffect="level01_BushNote_01"/>
+    <Item id="lvl1_jar" name="Blue Jar" rarity="100" value="0" icon="Questitems\lvl1_jar" useType="none" useEffect=""/>
+	
+    <Item id="hollowrock_pants" name="Fancy Pants" rarity="100" value="0" icon="Misc\no" useType="none" useEffect=""/>
+	
+    <Item id="spiderEyes" name="Spider Eyes" rarity="100" value="0" icon="Questitems\spidereyes" useType="none" useEffect=""/>
+    
+    <Item id="orb_1_justice" name="Orb of Justice " rarity="100" value="0" icon="Questitems\Orb_Justice" useType="none" useEffect="orb_justice"/>
+    <Item id="orb_2_peace" name="Orb of Peace" rarity="100" value="0" icon="Questitems\Orb_Peace" useType="none" useEffect="orb_peace"/>
+    <Item id="orb_3_nightmare" name="Orb of Nightmare" rarity="100" value="0" icon="Questitems\Orb_Nightmare" useType="none" useEffect="orb_nightmare"/>
+    <Item id="orb_4_lies" name="Orb of Lies" rarity="100" value="0" icon="Questitems\Orb_Lies" useType="none" useEffect="orb_lies"/>
+    <Item id="orb_5_fire" name="Orb of Fire" rarity="100" value="0" icon="Questitems\Orb_Fire" useType="none" useEffect="orb_fire"/>
+    <Item id="orb_6_water" name="Orb of Water" rarity="100" value="0" icon="Questitems\Orb_Water" useType="none" useEffect="orb_water"/>
+    <Item id="orb_7_luck" name="Orb of Luck" rarity="100" value="0" icon="Questitems\Orb_Luck" useType="none" useEffect="orb_luck"/>
+    <Item id="orb_8_light" name="Orb of Light" rarity="100" value="0" icon="Questitems\Orb_Light" useType="none" useEffect="orb_light"/>
+    <Item id="orb_9_harvest" name="Orb of Harvest" rarity="100" value="0" icon="Questitems\Orb_Harvest" useType="none" useEffect="orb_harvest"/>
+    <Item id="orb_10_war" name="Orb of War" rarity="100" value="0" icon="Questitems\Orb_War" useType="none" useEffect="orb_war"/>
+    <Item id="orb_11_honesty" name="Orb of Honesty" rarity="100" value="0" icon="Questitems\Orb_Honesty" useType="none" useEffect="orb_honesty"/>
+    <Item id="orb_12_pleasure" name="Orb of Pleasure" rarity="100" value="0" icon="Questitems\Orb_Pleasure" useType="none" useEffect="orb_pleasure"/>
+  </Items>
+
+  <Items type="weapon">
+		<Item id="w01" name="Short Sword" rarity="10" value="10" minDmg="4" maxDmg="9" icon="Weapons\weapon_sword_short" useEffect="equip" sound="" class="bleed"/>
+		<Item id="w02" name="Long Spear" rarity="10" value="10" minDmg="6" maxDmg="8" icon="Weapons\weapon_spear" useEffect="equip" sound="" class="blind"/>
+		<Item id="w03" name="Short Axe" rarity="10" value="10" minDmg="4" maxDmg="9" icon="Weapons\weapon_axe" useEffect="equip" sound="" class="maim"/>
+		<Item id="w04" name="One handed Hammer " rarity="10" value="10" minDmg="4" maxDmg="9" icon="Weapons\weapon_hammer" useEffect="equip" sound="" class="maim"/>
+	</Items>
+
+  <!--Valid Slots {Head, Neck, Shoulders, Chest, Waist, Legs, Hands, Feet};-->
+  <Items type="armor">
+		<Item id="a01" name="Heavy Plate Armor" slot="Chest" rarity="10" value="10" armor="10" icon="Clothes\armor_chest_plate" useEffect="equip"/>
+	</Items>
+</Loot>

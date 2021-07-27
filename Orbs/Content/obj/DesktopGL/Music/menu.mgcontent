@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/Music/menu.mp3</SourceFile>
+  <SourceTime>2019-01-21T20:48:47.8947435+01:00</SourceTime>
+  <DestFile>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/bin/DesktopGL/Music/menu.xnb</DestFile>
+  <DestTime>2019-01-21T21:13:18.3004189+01:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/bin/DesktopGL/Music/menu.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

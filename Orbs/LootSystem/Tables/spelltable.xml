@@ -1,0 +1,22 @@
+<Castable>
+	<Spells type="fire">
+		<Spell id="sf01" name="Burn" minDmg="4" maxDmg="9" manacost="10" icon="Spells\spell_burn" useEffect="damage" sound="Spells\fire" target="projectile" range="800"/>
+		<Spell id="sf02" name="Fire Armor" minDmg="2" maxDmg="3" manacost="20" icon="Spells\spell_firearmor" useEffect="protect" sound="" target="self" range="0"/>
+	</Spells>
+  <Spells type="nature">
+    <Spell id="sn01" name="Small Healing" minDmg="5" maxDmg="15" manacost="10" icon="Spells\spell_heal" useEffect="heal" sound="" target="self" range="0"/>
+	<Spell id="sn02" name="Haste" minDmg="0" maxDmg="0" manacost="10" icon="Spells\spell_haste" useEffect="buff" sound="Spells\shortWind" target="self" range="0"/>
+  </Spells>
+  <Spells type="arcane">
+    <Spell id="sa01" name="Arcane Bolt" minDmg="5" maxDmg="15" manacost="15" icon="Spells\spell_arcanebolt" useEffect="damage" sound="Spells\fire" target="projectile" range="700"/>
+  </Spells>
+  <Spells type="rune">
+	<Spell id="rn01" name="Default" minDmg="25" maxDmg="35" manacost="10" icon="Spells\rune" glyph="glyph" useEffect="rune01" sound="Spells\glyph"/>
+	<Spell id="rn04" name="Rune of Lies" minDmg="30" maxDmg="40" manacost="10" icon="Spells\rune" glyph="glyph" useEffect="orb_4_lies" sound="Spells\glyph"/>
+	<Spell id="rn05" name="Rune of Fire" minDmg="30" maxDmg="40" manacost="10" icon="Spells\rune" glyph="glyph" useEffect="orb_5_fire" sound="Spells\glyph"/>
+	<Spell id="rn06" name="Rune of Water" minDmg="30" maxDmg="40" manacost="10" icon="Spells\rune" glyph="glyph" useEffect="orb_6_water" sound="Spells\glyph"/>
+	<Spell id="rn08" name="Rune of Light" minDmg="30" maxDmg="40" manacost="10" icon="Spells\rune" glyph="glyph" useEffect="orb_8_light" sound="Spells\glyph"/>
+  </Spells>
+</Castable>
+
+

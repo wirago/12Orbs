@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="eyePickup" xml:space="preserve">
+    <value>${§Drei Augen? Wieso hat diese Spinne nur drei Augen?}</value>
+  </data>
+  <data name="level01_AngusNeutral" xml:space="preserve">
+    <value>Wer bist du? Was willst du hier?
+Ach, mir egal! Verschwinde sonst schlitze ich dich auf!</value>
+  </data>
+  <data name="level01_AngusTriggered" xml:space="preserve">
+    <value>Wo hast du das her? Wo ist Fosco?
+Jetzt reichts, mach dich bereit zu sterben!</value>
+  </data>
+  <data name="level01_BushNote_01" xml:space="preserve">
+    <value>Hey Fosco,
+Ich bin die anderen los geworden. Bei dem Geld machen wir nun 50-50.
+Und ich habe eine Art gluehende Kugel gefunden.
+Beeil dich, triff mich im Lager im Sueden.
+-Angus
+
+${§Ich bin nicht Fosco, aber das macht ja nichts?
+Vielleicht kann ich Angus irgendwie austricksen.
+Und was soll das fuer eine Kugel sein?}</value>
+  </data>
+  <data name="level01_Guard_01" xml:space="preserve">
+    <value>Wache Nisol,
+Sagte doch bereits du darfst in die Stadt.
+Nun mach schon.</value>
+  </data>
+  <data name="level01_Guard_02" xml:space="preserve">
+    <value>Wache Nisol,
+Hm, etwas Trinkgeld waere nett...
+Vielleicht bist du gar nicht so uebel.
+Du darfst in die Stadt, aber benimm dich!</value>
+  </data>
+  <data name="level01_Guard_03" xml:space="preserve">
+    <value>Wache Nisol,
+Merkwuerdige Leute laufen hier herum. Fremde duerfen 
+nicht mehr in die Stadt.
+Tut mir leid, sieh zu, dass du weiter kommst.</value>
+  </data>
+  <data name="level01_Jar_01" xml:space="preserve">
+    <value>Du hast bereits einen Krug.
+Einer reicht.</value>
+  </data>
+  <data name="level01_Jar_02" xml:space="preserve">
+    <value>Du hast einen leeren Krug aufgehoben.</value>
+  </data>
+  <data name="level01_Jar_03" xml:space="preserve">
+    <value>Dein Krug ist bereits voll.</value>
+  </data>
+  <data name="level01_Jar_04" xml:space="preserve">
+    <value>${#Du hast deinen Krug mit Wasser gefüllt.}</value>
+  </data>
+  <data name="level01_Jar_05" xml:space="preserve">
+    <value>Du hast keinen Behaelter fuer das Wasser.</value>
+  </data>
+  <data name="level01_Jar_06" xml:space="preserve">
+    <value>Du brauchst keinen weiteren Krug mehr.</value>
+  </data>
+  <data name="level01_Note_01" xml:space="preserve">
+    <value>Hallo Leute,
+Gut, dass ihr den Stein gefunden habt. Sagte ja, dass das klappt.
+Ich habe einen Weg in die Stadt gefunden.
+Wir muessen das aber fuer uns behlaten!
+Die Wache am Eingang ist bestechlich.
+Euer Anteil des letzten Raubzuges ist in der Nähe versteckt.
+Das sollte reichen um rein zu kommen.
+Zwei Pfeile unter dem Licht zeigen euch den Weg.
+Bis bald
+-Angus</value>
+  </data>
+  <data name="level01_RedBush_01" xml:space="preserve">
+    <value>Ein roter Busch.
+Hier gibt es nichts zu tun denke ich.</value>
+  </data>
+  <data name="level01_RedBush_02" xml:space="preserve">
+    <value>Direkt am Wasser und sieht trotzdem trocken aus.</value>
+  </data>
+  <data name="level01_SignPost01_01" xml:space="preserve">
+    <value>Dieser Pfad fuehrt nach Hollowrock.
+${§Ich sollte wohl dort hin gehen.}</value>
+  </data>
+  <data name="level01_SignPost01_02" xml:space="preserve">
+    <value>Rot, rund und buschig, sitze ich am Wasser.
+Mach mich nass und vielleicht gebe ich dir etwas.
+
+${$Wie soll ich etwas nass machen?
+Waren da nicht ein paar blaue Kruege.
+bei dem Brunnen, ein Stück noerdlich der Strasse?}</value>
+  </data>
+  <data name="level01_SignPostCave" xml:space="preserve">
+    <value>${§Da ist eine dunkle Höhle.
+Riecht ziemlich streng.
+Ich gehe da lieber nicht hinein.}</value>
+  </data>
+  <data name="level01_SignPostField" xml:space="preserve">
+    <value>Grendelins' Feld!
+Zutritt verboten!
+
+${§Wegen all dem Gemuese?
+Wohl kaum.}</value>
+  </data>
+  <data name="level01_SignPostLake" xml:space="preserve">
+    <value>'Hollowrock Teich'
+
+${§Eindeutig zu kalt zum baden.}</value>
+  </data>
+  <data name="level01_StoneTablet" xml:space="preserve">
+    <value>${§Ich habe eine merwuerdige Steintafel gefunden.
+Es sind Buchstaben eingeritzt. Da steht:
+LL-WAS-FA-SER
+Was soll das bedeuten?}</value>
+  </data>
+  <data name="level01_Story_01" xml:space="preserve">
+    <value>So beginnt es also. Im Sommer 262 v.U.
+
+Es wurde Zeit Urgads Haus zu verlassen und auf 
+eigenen Beinen zu stehen..
+
+Toria ist ein großes Land, ich bin gespannt welche Abenteuer 
+mich erwarten.
+
+Obwohl, die Wuran Wälder sind bekannt für ihre... Langeweile...
+
+Vielleicht sollte ich erst mal Richtung Osten. Nach Hollowrock.
+
+
+Tip:
+Viele Objekte in der Welt sind benutzbar. Klick sie an.</value>
+  </data>
+  <data name="orbPickUp" xml:space="preserve">
+    <value>${§Ich habe diese Kugel bei Angus gefunden.
+Was mache ich damit
+Vielleicht komme ich in Hollowrock damit weiter.}</value>
+  </data>
+</root>

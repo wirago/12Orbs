@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/Sounds/turn_page.wav</SourceFile>
+  <SourceTime>2018-05-15T18:28:18.5821766+02:00</SourceTime>
+  <DestFile>C:/Users/Slesinger/Source/repos/Orbs/Orbs/Content/bin/DesktopGL/Sounds/turn_page.xnb</DestFile>
+  <DestTime>2019-01-21T21:12:58.6224295+01:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-03-01T16:05:36+01:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-03-01T16:05:36+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

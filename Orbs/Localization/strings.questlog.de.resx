@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="hollowrock_betty_01" xml:space="preserve">
+    <value>Ok, Spinnen erledigt, Hosen geliefert, ich
+hoffe ich komme jetzt voran.</value>
+  </data>
+  <data name="hollowrock_geddh_01" xml:space="preserve">
+    <value>Geddh hat die Kugel "unfreiwillig" an
+jemand in gruenem Mantel verkauft.
+Ich sollte mich in der Stadt umsehen.</value>
+  </data>
+  <data name="hollowrock_jongar_01" xml:space="preserve">
+    <value>Nach all dem hat mir Jongar erzaehlt, dass
+Geddh eine der Kugeln verkauft hat. 
+Also zurueck zum Markt...</value>
+  </data>
+  <data name="hollowrock_merchant_01" xml:space="preserve">
+    <value>Serina bat mich Geddh zu helfen.
+Nicht wirklich das Abenteuer das ich 
+gesucht habe...</value>
+  </data>
+  <data name="hollowrock_spiders_01" xml:space="preserve">
+    <value>Ich soll ein paar Spinnen vor der Stadt erlegen.
+Und Serina will ein paar ihrer Augen. 
+Was soll das sein? Das grosse Krabbeln?</value>
+  </data>
+  <data name="hollowrock_story_01" xml:space="preserve">
+    <value>Ich habe Hollowrock erreicht. Eine nette 
+Stadt eigentlich.
+Sie wurde nach dem Krieg gegen die Xesh 
+komplett neu aufgebaut.
+Vielleicht finde ich jemanden der mit mit 
+dieser Kugel helfen kann.
+
+Oder aber, ich gehe zuerst ins Wirtshaus...</value>
+  </data>
+  <data name="hollowrock_story_02" xml:space="preserve">
+    <value>Gindella, so eine sonderbare alte Frau hat 
+mich jemandem namens Calidur geschickt 
+um ihm diese Kugel zu zeigen. 
+
+Es scheint, dass in Hollowrock einiges los ist. 
+Mal sehen was ich tun kann.</value>
+  </data>
+  <data name="level_01_guard_noEntry" xml:space="preserve">
+    <value>Der Wachmann, der sich Nisol nennt, 
+laesst mich nicht in die Stadt.
+Ich sehe mich ein wenig in der Gegend 
+um, vielleicht finde ich etwas
+das mich weiter bringt.</value>
+  </data>
+  <data name="level_01_story_0" xml:space="preserve">
+    <value>Ich habe die Wuran Waelder erreicht.
+Im Osten sollte die Stadt Hollowrock
+sein. Dort warten bestimmt die ersten
+Abenteuer auf mich.</value>
+  </data>
+  <data name="level_01_story_1" xml:space="preserve">
+    <value>Ich habe eine Steintafel gefunden.
+Auf ihr steht "LL-WAS-FA-SER".
+Was soll das bedeuten?</value>
+  </data>
+  <data name="level_01_story_2" xml:space="preserve">
+    <value>Angus hatte eine merkwuerdige Kugel bei
+sich. Vielleicht weis in Hollowrock jemand
+was es mit ihr auf sich hat.</value>
+  </data>
+</root>

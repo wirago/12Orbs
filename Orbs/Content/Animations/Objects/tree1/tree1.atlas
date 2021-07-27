@@ -1,0 +1,41 @@
+
+tree1.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 5
+  rotate: true
+  xy: 976, 159
+  size: 350, 393
+  orig: 350, 393
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 1371, 200
+  size: 309, 380
+  orig: 309, 380
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: true
+  xy: 2, 2
+  size: 189, 268
+  orig: 189, 268
+  offset: 0, 0
+  index: -1
+Layer 8
+  rotate: true
+  xy: 2, 193
+  size: 316, 531
+  orig: 316, 531
+  offset: 0, 0
+  index: -1
+Layer 9
+  rotate: true
+  xy: 535, 167
+  size: 342, 439
+  orig: 342, 439
+  offset: 0, 0
+  index: -1

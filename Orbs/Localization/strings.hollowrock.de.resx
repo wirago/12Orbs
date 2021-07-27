@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abandonedHouse_01" xml:space="preserve">
+    <value>${§Die Tuer ist versperrt. Und ich glaube nicht, dass
+ein einfacher Schluessel reicht um sie zu oeffnen.}</value>
+  </data>
+  <data name="Gindella_1" xml:space="preserve">
+    <value>Hallo mein Lieber.
+Das erste mal hier in Hollowrock?
+Im Norden findest du das oeffentliche Viertel und das Gasthaus.
+Im Sueden ist das Kriegerviertel und seine beruehmte Halle.
+Im Osten findest du das Magier- und Schattenviertel.
+
+Oh, und wegen deiner Kugel, frage mal Calidur.
+Er treibt sich meistens auf dem Markt herum.</value>
+  </data>
+  <data name="Gindella_2" xml:space="preserve">
+    <value>Meine Beine tun weh.</value>
+  </data>
+  <data name="Gindella_3" xml:space="preserve">
+    <value>Meine Knie tun weh.</value>
+  </data>
+  <data name="Gindella_4" xml:space="preserve">
+    <value>Habe ich dir schon die Geschichte meiner alten Katze erzaehlt?</value>
+  </data>
+  <data name="Gindella_5" xml:space="preserve">
+    <value>Meine Haende tun weh.</value>
+  </data>
+  <data name="Gindella_6" xml:space="preserve">
+    <value>Wo ist mein Hund? Hast du ihn gesehen?
+Er hat so... 4 Beine und einen Schwanz.</value>
+  </data>
+  <data name="Gindella_7" xml:space="preserve">
+    <value>Ich bin muede.</value>
+  </data>
+  <data name="Gindella_8" xml:space="preserve">
+    <value>Ich will eine Prinzessin sein.</value>
+  </data>
+  <data name="Gindella_9" xml:space="preserve">
+    <value>Ich kann sie reden hoeren. Sie reden ueber...
+Ja! Ich weis was sie wollen.
+Aber wo soll dieses Dorf des Gefluesters sein?</value>
+  </data>
+  <data name="hollowrock_SignPost01" xml:space="preserve">
+    <value>Dieser Weg fuehrt in die Wuran Waelder.</value>
+  </data>
+  <data name="hollowrock_SignPost02" xml:space="preserve">
+    <value>Ablagerung von Unrat verboten!
+Betteln verboten!
+Hunde und Katzen erlaubt.</value>
+  </data>
+  <data name="hollowrock_SignPost03" xml:space="preserve">
+    <value>${§Was steht da?} 'Du nicht gehen ueber Bruecke!'
+${§Es gibt gar keine Bruecke. Und wer schreibt sowas?}</value>
+  </data>
+  <data name="hollowrock_story_01" xml:space="preserve">
+    <value>Ich habe Hollowrock erreicht. Eine nette Stadt eigentlich.
+
+Sie wurde nach dem Krieg gegen die Xesh komplett neu aufgebaut.
+
+Vielleicht finde ich jemanden der mit mit dieser Kugel helfen kann.
+
+Oder aber, ich gehe zuerst ins Wirtshaus...
+
+
+Tip:Sprich mit den Leuten. Vielleicht sagen sie etwas interessantes.</value>
+  </data>
+  <data name="Jongar_1" xml:space="preserve">
+    <value>Ich will mich jetzt nicht unterhalten!</value>
+  </data>
+  <data name="Serina_1" xml:space="preserve">
+    <value>Hallo Fremder, mein Mann Jongar ist etwas schlecht drauf wegen
+der Spinnen vor der Stadt. Niemand will sie beseitigen. Nicht mal 
+die Wachleute. Vielleicht kannst du uns helfen? Wenn du schon dabei
+bist, kannst du mit 6 Spinnenaugen mitbringen? Ich brauche sie fuer...
+... Dinge.</value>
+  </data>
+  <data name="Serina_2" xml:space="preserve">
+    <value>Vielen Dank fuer die Augen.
+Kann ich dich noch um eine Sache bitten? Geddh, der Haendler, braucht
+ein paar Dinge ausgeliefert. Bist du so nett und hilfst ihm? Ich wurede es
+ja selber tun, aber ich habe Dinge zu erledigen...</value>
+  </data>
+  <data name="Serina_3" xml:space="preserve">
+    <value>Hm... hast du das mit den Spinnen schon erledigt?</value>
+  </data>
+  <data name="Serina_4" xml:space="preserve">
+    <value>Konntest du Geddh schon behilflich sein?</value>
+  </data>
+  <data name="Geddh_1" xml:space="preserve">
+    <value>Hallo mein Freund.
+Brauchst du was? Ich kann dir alles besorgen!
+Ok... fast alles.</value>
+  </data>
+  <data name="Geddh_2" xml:space="preserve">
+    <value>Waere nett wenn du mir mit einer Kleinigkeit helfen koenntest.
+Ich habe vor einiger Zeit einen Pfeil ins Knie bekommen und schmerzt.
+Kannst du diese Hose zu Betty bringen? Sie sollte im Gasthaus sein.</value>
+  </data>
+  <data name="Geddh_3" xml:space="preserve">
+    <value>Wie geht es mit der Hosenlieferung?</value>
+  </data>
+  <data name="Geddh_4" xml:space="preserve">
+    <value>Ja ja, deine Lieferantenfaehigkeiten sind legendaer, aber wir muessen
+jetzt keine besten Freunde sein, oder?</value>
+  </data>
+  <data name="abandonedHouse_02" xml:space="preserve">
+    <value>${§Was zum Teufel war das?}</value>
+  </data>
+  <data name="Calidur_1" xml:space="preserve">
+    <value>Hallo Fremdling. Mein Name ist Calidur.
+Ist das dein erster Aufenthalt in Hollowrock? Nette Stadt!
+
+Was hast du denn da? Wow! Du hast eine der 12 Kugeln des
+Gleichgewichts gefunden! Nie davon gehoert? 
+Diese Kugeln bringen - in korrekter Anordnung - die Welt ins
+Gleichgewicht. Leider wurden diese von Imes, dem Gott des
+Neides gestohlen. 
+Sie muessen zurueck gebracht werden! Wenn du uns helfen
+willst, Buergermeister Jongar hat angeblich etwas gesehen. 
+Sieh mal zu ihm bitte. Sein Haus ist im Suden der Stadt.</value>
+  </data>
+  <data name="Jongar_2" xml:space="preserve">
+    <value>Calidur hat dich geschickt, richtig? Verrueckter alter Mann.
+Mit seinen dummen magischen Baellen. Wir haben Wichtigeres
+zu tun! 
+Aber ok, du hast uns geholfen, also helfe ich dir... WENN du
+dieses Raetsel loesen kannst:
+Ich existiere nur in Anwesenheit von Licht, und doch ist Licht  
+mein sofortiger Tod. Was bin ich?</value>
+  </data>
+  <data name="Jongar_3" xml:space="preserve">
+    <value>Das ist korrekt mein Freund!
+Ok, hoer zu!. Geddh, der Haendler am Markt hat eine Art
+Kugel verkauft ... oder wie ihr das nennt . Er hat sich ziemlich
+aufgeregt deshalb. Das ist alles was ich dazu sagen kann.</value>
+  </data>
+  <data name="Jongar_4" xml:space="preserve">
+    <value>Ich muss jetzt wieder an die Arbeit.</value>
+  </data>
+  <data name="Serina_5" xml:space="preserve">
+    <value>Danke fuer deine Hilfe. Ich konnte Jongar ueberzeugen mit
+dir zu sprechen.</value>
+  </data>
+  <data name="Betty_1" xml:space="preserve">
+    <value>Oh! Danke sehr! Die Lieferung hat nur vier Tage gedauert...</value>
+  </data>
+  <data name="Betty_2" xml:space="preserve">
+    <value>Willst du ein Bier? Ein Bett? Ein Bier im Bett? Wir haben beides!</value>
+  </data>
+  <data name="Geddh_5" xml:space="preserve">
+    <value>Du hast also von meinem Handel gehoert. Dieser 
+Mistkerl im gruenen Mantel. Sein Name ist Olir glaube ich.
+Eine Art Hexer meine ich. Ich wollte nicht verkaufen ... und
+doch habe ich es getan...
+
+Keine Ahnung wo er ist, aber er muss noch in Hollowrock sein.</value>
+  </data>
+</root>

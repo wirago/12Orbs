@@ -1,0 +1,21 @@
+<NPC>
+	<Enemies type="creep">
+		<Enemy uid="spider01_m" texture="spider01" attackAnimation="spider01" name="Spider" minDmg="3" maxDmg="7" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="none"/>
+		<Enemy uid="spider01_immortal" texture="spider01" attackAnimation="spider01" name="Immortal Spider" minDmg="1" maxDmg="1" attackSpeed="2" movementSpeed="2" maxHealth="10000" textureHeight="64" textureWidth="64" element="none"/>
+		<Enemy uid="spider01_water" texture="spider01" attackAnimation="spider01" name="Water Spider" minDmg="3" maxDmg="7" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="water"/>
+		<Enemy uid="spider01_fire" texture="spider01" attackAnimation="spider01" name="Fire Spider" minDmg="3" maxDmg="7" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="fire"/>
+		<Enemy uid="spider01_earth" texture="spider01" attackAnimation="spider01" name="Earth Spider" minDmg="3" maxDmg="7" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="earth"/>
+		<Enemy uid="spider01_arcane" texture="spider01" attackAnimation="spider01" name="Arcane Spider" minDmg="3" maxDmg="7" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="arcane"/>
+		<Enemy uid="spider01_nature" texture="spider01" attackAnimation="spider01" name="Nature Spider" minDmg="3" maxDmg="7" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="nature"/>
+		
+	</Enemies>
+	
+	<Enemies type="elite">
+		<Enemy uid="spider01Big" texture="spider01" attackAnimation="spider01" name="Big Spider" minDmg="6" maxDmg="14" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="none"/>
+	</Enemies>
+	
+	<Enemies type="boss">
+		<Enemy uid="spider01Boss" texture="spider01" attackAnimation="spider01" name="Frank Eightleg" minDmg="16" maxDmg="24" attackSpeed="2" movementSpeed="2" maxHealth="100" textureHeight="64" textureWidth="64" element="none"/>
+	</Enemies>
+	
+</NPC>
