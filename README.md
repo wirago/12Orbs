@@ -7,9 +7,9 @@ https://www.youtube.com/watch?v=BDS7TtJPGYI
 
 The development of this project has been stopped but I think that the already written code might be usefull for some others.
 
-Map built using Tiled https://www.mapeditor.org/
-Tiled implementatin with TiledSharp https://github.com/marshallward/TiledSharp
-
+Map built using Tiled https://www.mapeditor.org/<br>
+Tiled implementatin with TiledSharp https://github.com/marshallward/TiledSharp<br>
+Soft lightning with Penumbar https://github.com/discosultan/penumbra<br><br>
 I do not claim that the code is pretty or particular "well written" since it was my first bigger project and I learned a lot during its development.
 
 Core features:<br>
@@ -19,6 +19,8 @@ Buffs and debuffs<br>
 Basic dialog- and questsystem<br>
 Grid based inventory<br>
 Multi language support<br>
+Pathfinding via A* algorithm<br>
+Spine animation support
 <br><br>
 
 If you have any question regarding the implementation you can drop me a message on twitter (@slesinger) although I do not guarantee that I can still remember every detail ;)
